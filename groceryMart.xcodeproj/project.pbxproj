@@ -14,6 +14,11 @@
 		BB013B582C92235600D2920F /* groceryMartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB013B572C92235600D2920F /* groceryMartTests.swift */; };
 		BB013B622C92235600D2920F /* groceryMartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB013B612C92235600D2920F /* groceryMartUITests.swift */; };
 		BB013B642C92235600D2920F /* groceryMartUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB013B632C92235600D2920F /* groceryMartUITestsLaunchTests.swift */; };
+		BB013B712C92264700D2920F /* grocery_items.json in Resources */ = {isa = PBXBuildFile; fileRef = BB013B702C92261000D2920F /* grocery_items.json */; };
+		BB013B732C9226B300D2920F /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB013B722C9226B300D2920F /* DataModel.swift */; };
+		BB013B772C922D3700D2920F /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB013B762C922D3600D2920F /* DetailsView.swift */; };
+		BB013B792C92476F00D2920F /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB013B782C92476F00D2920F /* FavoritesView.swift */; };
+		BB013B7B2C9248DA00D2920F /* FavoritesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB013B7A2C9248DA00D2920F /* FavoritesManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,11 @@
 		BB013B5D2C92235600D2920F /* groceryMartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = groceryMartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB013B612C92235600D2920F /* groceryMartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = groceryMartUITests.swift; sourceTree = "<group>"; };
 		BB013B632C92235600D2920F /* groceryMartUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = groceryMartUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BB013B702C92261000D2920F /* grocery_items.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = grocery_items.json; sourceTree = "<group>"; };
+		BB013B722C9226B300D2920F /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		BB013B762C922D3600D2920F /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		BB013B782C92476F00D2920F /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		BB013B7A2C9248DA00D2920F /* FavoritesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +106,11 @@
 			children = (
 				BB013B462C92235300D2920F /* groceryMartApp.swift */,
 				BB013B482C92235300D2920F /* ContentView.swift */,
+				BB013B782C92476F00D2920F /* FavoritesView.swift */,
+				BB013B7A2C9248DA00D2920F /* FavoritesManager.swift */,
+				BB013B702C92261000D2920F /* grocery_items.json */,
+				BB013B762C922D3600D2920F /* DetailsView.swift */,
+				BB013B722C9226B300D2920F /* DataModel.swift */,
 				BB013B4A2C92235500D2920F /* Assets.xcassets */,
 				BB013B4C2C92235500D2920F /* Preview Content */,
 			);
@@ -231,6 +246,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB013B712C92264700D2920F /* grocery_items.json in Resources */,
 				BB013B4E2C92235500D2920F /* Preview Assets.xcassets in Resources */,
 				BB013B4B2C92235500D2920F /* Assets.xcassets in Resources */,
 			);
@@ -258,7 +274,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB013B492C92235300D2920F /* ContentView.swift in Sources */,
+				BB013B7B2C9248DA00D2920F /* FavoritesManager.swift in Sources */,
+				BB013B772C922D3700D2920F /* DetailsView.swift in Sources */,
 				BB013B472C92235300D2920F /* groceryMartApp.swift in Sources */,
+				BB013B792C92476F00D2920F /* FavoritesView.swift in Sources */,
+				BB013B732C9226B300D2920F /* DataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
