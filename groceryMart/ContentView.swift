@@ -19,19 +19,23 @@ struct ContentView: View {
                     ForEach(groceryItems, id: \.self) { grocery in
                         NavigationLink(destination:DetailsView(grocery: grocery)){
                             SingleItemView(grocery: grocery)
+                                .accessibilityIdentifier("groceryItem-\(grocery.id)")
+
                         }
                     }
                 }
                 .padding(.vertical)
                 .navigationTitle("")
             }
+            
             .navigationBarItems(trailing:NavigationLink(destination:FavoritesView())
                                 {
                 Image(systemName: "heart")
                     .foregroundColor(.white)
                     .bold()
                     .font(.title2)
-            })
+            }.accessibilityIdentifier("heart")
+            )
             .background(.orange)
         }
     }

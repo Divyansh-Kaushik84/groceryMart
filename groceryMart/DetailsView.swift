@@ -113,7 +113,8 @@ struct DetailsView: View {
                             .font(.title2)
                             .padding()
                             .background(isFavorite ? Color.purple.cornerRadius(25).shadow(color: .black, radius: 5) : Color.orange.cornerRadius(25).shadow(color: .black, radius: 10))
-                    }
+                    }.accessibilityIdentifier("addToFavoritesButton")
+
                     Spacer()
 
                 }
